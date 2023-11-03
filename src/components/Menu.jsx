@@ -7,7 +7,7 @@ export default function Menu() {
         Home
       </Link>
       <Link href="/henry" prefetch={false}>
-        Henry
+        henry
       </Link>
     </nav>
   );
