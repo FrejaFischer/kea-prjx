@@ -17,14 +17,7 @@ export default async function Henry() {
   return (
     <main>
       <h1>{name}</h1>
-      <Image
-        src={image.url}
-        width={image.width}
-        height={image.height}
-        alt={name}
-        priority
-        sizes="(max-width: 500px) 100vw, 500px"
-      />
+      <Image src={image.url} width={image.width} height={image.height} alt={name} priority sizes="(max-width: 500px) 100vw, 500px" />
     </main>
   );
 }

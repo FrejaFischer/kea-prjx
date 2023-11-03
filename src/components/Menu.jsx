@@ -6,8 +6,14 @@ export default function Menu() {
       <Link href="/" prefetch={false}>
         Home
       </Link>
-      <Link href="/henry" prefetch={false}>
+      <Link href="/dogs/henry" prefetch={false}>
         henry
+      </Link>
+      <Link href="/dogs/pete" prefetch={false}>
+        pete
+      </Link>
+      <Link href="/dogs/tommi" prefetch={false}>
+        tommi
       </Link>
     </nav>
   );
