@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   const pages = await res.json();
 
   const paths = pages.map((page) => {
-    return { data: page.slug };
+    return { slug: page.slug };
   });
 
   return paths;
